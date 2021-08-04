@@ -2,7 +2,7 @@
 layout: project
 title: EF Finland
 date: 2017 - 2018
-intro: I am currently leading research for a product team responsible for transforming the digital future of EF Languages Abroad through research-driven design solutions. </br><br/>Roles&#58; Lead UX Researcher / Designer
+intro: I led research for a product team responsible for transforming the digital future of EF Languages Abroad through research-driven design solutions. </br><br/>Roles&#58; Lead UX Researcher / Designer
 permalink: education-first/
 ---
 
@@ -213,9 +213,6 @@ permalink: education-first/
        <div class="col-8">
         <h2 class="projectTitle">Impact</h2>
         <p>We have shifted the company paradigm of what makes an online experience successful: instead of asking potential customers for contact information through primary CTAs, the internal conversation has shifted to creating a content-rich website that promotes booking directly online. In addition, one year after launch, customers are booking twice as much online as they did in the previous year.</p>
-         <p>
-        We are currently testing this new digital model in other markets.</p>
-        <p><a href="https://www.ef.fi/languagesabroad" target="_blank">Explore the site</a></p>
       </div>
     </div>
   </div>

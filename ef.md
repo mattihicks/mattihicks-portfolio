@@ -9,7 +9,6 @@ permalink: ef/
 <div class="page-content">
 
   <div class="wrapper">
-    <div class="site-link"><a href="https://www.ef.fi/languagesabroad" target="_blank">Explore the site</a> </div>
 
   </div>
 </div>

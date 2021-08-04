@@ -1,0 +1,124 @@
+@media screen and (max-width: 690px) {
+.intro {
+	font-size: 32px;
+}
+
+.site-header {
+    margin-left: 1rem;
+}
+
+.row {
+    margin-top: 32px;
+}
+
+.projectGrid h4 {
+    margin-top: 16px;
+    margin-left: 0;
+    margin-bottom: 4px;
+    font-size: 6vw;
+    line-height: 1.2;
+	}
+
+
+.projectGrid p {
+    margin-left: 0;
+}
+
+.about p {
+    margin-left: 0;
+
+}
+
+html .page-content-alternative {
+	padding: 16px 0;
+}
+
+.column-4-grid {
+    padding-bottom: 40px;
+}
+
+.projectNav {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectNav .col-2 {
+    text-align:center;
+}
+
+.publicationCard {
+    margin-bottom: 32px;
+}
+
+.sectionTitle {
+    margin-bottom: 0px;
+}
+
+ /* Place the timelime to the left */
+  .timelineContent:before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 2px solid #161616;
+    background: #f1eeec;
+    left: 65px;
+    top: 24px;
+    border-radius: 100%;
+}
+
+.timelineDate {
+    width: 50px;
+    margin: 14px 0 0 0;
+    float: left;
+    padding: 5px 20px 4px 0;
+    text-align: right;
+}
+
+.questionProject {
+    font-size: 24px;
+}
+
+}
+
+
+@media only screen and (max-width: 720px) {
+
+ .timeline {
+        margin: 0;
+        padding: 0
+    }
+
+    .timeline-date {
+        width: 50px;
+        margin: 14px 0 0 0;
+        float: left;
+        padding: 5px 20px 4px 0;
+        text-align: right;
+    }
+
+    .timelineContent {
+        border-left: 2px #161616 solid;
+        padding-left: 20px;
+        float: none;
+        margin-left: 70px;
+        width: auto
+    }
+
+    .timelineContent:before {
+        position: absolute;
+        content: '';
+        width: 8px;
+        height: 8px;
+        border: 2px solid #161616;
+        background: #f1eeec;
+        left: 65px;
+        top: 24px;
+        border-radius: 100%
+    }
+
+    .introPara {
+        font-size: 17px;
+    }
+}

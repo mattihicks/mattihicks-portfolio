@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+
+
+  {% include header.html %}
+
+
+  <div class="page-content intro-project">
+
+    <div class="wrapper">
+     <div class="page-title">{{ page.title }}</div>
+     <div class="page-subtitle">{{ page.date }}</div>
+     <div class="page-intro">{{ page.intro }}</div>
+
+</div>
+</div>
+
+  {{ content }}
+
+
+ <div class="wrapper">
+   {% include footer.html %}
+</div>
+
+
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+{% include carousel.html %}
+</body>
+
+
+</html>

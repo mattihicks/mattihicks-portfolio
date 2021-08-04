@@ -1,0 +1,112 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Font variables
+$font-name: "GT-Walsheim-Medium";
+$font-name-intro: "GT-Walsheim-Black";
+$font-path-file-name-intro: {{ baseurl }}/assets/fonts/GT-Walsheim-Black;
+$font-name-regular: "GT-Walsheim";
+$font-path-file-name: {{ baseurl }}/assets/fonts/GT-Walsheim-Medium;
+$font-name-bold: "GT-Walsheim-Bold";
+$font-path-file-name-bold: {{ baseurl }}/assets/fonts/GT-Walsheim-Bold;
+$font-name-body: "GT-Walsheim-Light";
+$font-path-file-name-body: {{ baseurl }}/assets/fonts/GT-Walsheim-Light;
+$font-name-quote: "GT-Walsheim-Regular";
+$font-path-file-name-quote: {{ baseurl }}/assets/fonts/GT-Walsheim-Regular;
+$font-name-emphasis: "GT-Walsheim-Regular-Italic";
+$font-path-file-name-emphasis: {{ baseurl }}/assets/fonts/GT-Walsheim-Light-Oblique;
+$font-name-title: "TiemposTextWeb-Semibold";
+$font-path-file-name-title: {{ baseurl }}/assets/fonts/TiemposTextWeb-Semibold;
+
+// font_name font
+@font-face {
+  font-family: $font-name;
+  src: url($font-path-file-name+'.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-name-title;
+  src: url($font-path-file-name-title+'.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-name-bold;
+  src: url($font-path-file-name-bold+'.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-name-body;
+  src: url($font-path-file-name-body+'.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-name-intro;
+  src: url($font-path-file-name-intro+'.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-name-quote;
+  src: url($font-path-file-name-quote+'.woff') format('woff');
+}
+
+@font-face {
+  font-family: $font-name-emphasis;
+  src: url($font-path-file-name-emphasis+'.woff') format('woff');
+}
+
+// Our variables
+$title-font-family: $font-name-title, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$intro-font-family: $font-name-intro, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: $font-name-body, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-sectionTitle: $font-name-bold, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-page-links-font-family: $font-name-regular, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font-family: $font-name, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$blockquote-font-family: $font-name-quote, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-quote: $font-name-emphasis, Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+$base-font-size:   16px; 
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+// $large-font-size: 19px;
+$base-line-height: 1.778;
+
+$spacing-unit:     30px;
+
+$text-color:       #0D273F;
+$background-color: #f2f2f2;
+
+$grey-color:       #fafafa;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    915px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// $font-name-tiempos: "Tiempos Text Web";
+// $font-filepath-and-name: "assets/fonts/TiemposTextWeb-Regular";
+
+
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "syntax-highlighting",
+        "simple-grid",
+        "slick",
+        "base",
+        "layout",
+        "responsive"
+;
+
+
+

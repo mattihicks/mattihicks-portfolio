@@ -2,7 +2,7 @@
 layout: project
 title: EF Finland
 date: 2017 - 2018
-intro: I am currently leading research for EF's global product design team, responsible for transforming the future of the global company through research-driven design solutions. </br><br/>For EF Finland, I researched and designed an end-to-end journey where students are encouraged to discover great content that makes them excited to book a trip online.
+intro: I led research for EF's global product design team, responsible for transforming the future of the global company through research-driven design solutions. </br><br/>For EF Finland, I researched and designed an end-to-end journey where students are encouraged to discover great content that makes them excited to book a trip online.
 permalink: ef/
 ---
 
@@ -213,8 +213,8 @@ permalink: ef/
         <h2 class="projectTitle">Impact</h2>
         <p>We have shifted the company paradigm of what makes an online experience successful: instead of asking potential customers for contact information through primary CTAs, the internal conversation has shifted to creating a content-rich website that promotes booking directly online. In addition, one year after launch, customers are booking twice as much online as they did in the previous year.</p>
         <p>
-        We are currently testing this new digital model in other markets.</p>
-        <p><a href="https://www.ef.fi/languagesabroad" target="_blank">Explore the site</a></p>
+        Next, we tested this new digital model in Spain.</p>
+        <p>Due to the impact of COVID-19, the EF Finland office closed and moved to Sweden. </p>
       </div>
     </div>
   </div>

@@ -121,13 +121,13 @@ your next trip?</span></p>
        <div class="col-8">
         <h2 class="projectTitle">Results and impact</h2>
         <p>I can't disclose my findings for confidentiality reasons, but here's some of the outcomes and action items I took:</p>
-        <p>1. I created a <span style="font-family:GT-Walsheim-Medium">customer journey diagram with eight stages</span> that the customer experiences throughout their EF journey. We are currently building on this research to go deeper within the eight stages I defined.</p>
+        <p>1. I created a <span style="font-family:GT-Walsheim-Medium">customer journey diagram with eight stages</span> that the customer experiences throughout their EF journey. We further built on this research to go deeper within the eight stages I defined.</p>
                 <h5>Customer journey (blurred to protect confidentiality)</h5>
         <img src="../assets/images/customer_journey_example.jpg"/>
         <p></p>
         <p></p>
-        <p>2. I am collaborating with the product owner as this research directly impacts the <span style="font-family:GT-Walsheim-Medium">product roadmap</span>; we've uncovered multiple product opportunities for 2019, and most likely beyond.</p>
-        <p>3. <span style="font-family:GT-Walsheim-Medium">Feature and content improvements</span> are in planning, development, or testing stages, including providing more information about what the student will experience as well as an increased emphasis on authenticity in the product.</p>
+        <p>2. I collaborated with the product owner as this research directly impacts the <span style="font-family:GT-Walsheim-Medium">product roadmap</span>; we've uncovered multiple product opportunities for 2019, and most likely beyond.</p>
+        <p>3. <span style="font-family:GT-Walsheim-Medium">Feature and content improvements</span> were put in planning, development, or testing stages, including providing more information about what the student will experience as well as an increased emphasis on authenticity in the product.</p>
       </div>
     </div>
   </div>
